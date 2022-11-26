@@ -1,0 +1,33 @@
+Vagrant Cloud username or email: malder05
+Password (will be hidden):
+Token description (Defaults to "Vagrant login from MacBook"):
+Traceback (most recent call last):
+        17: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/bin/vagrant:248:in `<main>'
+        16: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/lib/vagrant/environment.rb:301:in `cli'
+        15: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/lib/vagrant/cli.rb:67:in `execute'
+        14: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/auth/login.rb:54:in `execute'
+        13: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/util.rb:69:in `client_login'
+        12: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/client/client.rb:74:in `login'
+        11: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/client/client.rb:167:in `with_error_handling'
+        10: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/client/client.rb:75:in `block in login'
+         9: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:192:in `authentication_token_create'
+         8: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:130:in `request'
+         7: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:84:in `with_connection'
+         6: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:84:in `synchronize'
+         5: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:84:in `block in with_connection'
+         4: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:130:in `block in request'
+         3: from /opt/vagrant/embedded/gems/2.3.3/gems/excon-0.94.0/lib/excon/connection.rb:287:in `request'
+         2: from /opt/vagrant/embedded/gems/2.3.3/gems/excon-0.94.0/lib/excon/connection.rb:456:in `response'
+         1: from /opt/vagrant/embedded/gems/2.3.3/gems/excon-0.94.0/lib/excon/middlewares/response_parser.rb:12:in `response_call'
+/opt/vagrant/embedded/gems/2.3.3/gems/excon-0.94.0/lib/excon/middlewares/expects.rb:13:in `response_call': Expected([200, 201, 204]) <=> Actual(404 Not Found) (Excon::Error::NotFound)
+        10: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/bin/vagrant:248:in `<main>'
+         9: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/lib/vagrant/environment.rb:301:in `cli'
+         8: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/lib/vagrant/cli.rb:67:in `execute'
+         7: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/auth/login.rb:54:in `execute'
+         6: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/util.rb:69:in `client_login'
+         5: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/client/client.rb:74:in `login'
+         4: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/client/client.rb:167:in `with_error_handling'
+         3: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant-2.3.3/plugins/commands/cloud/client/client.rb:75:in `block in login'
+         2: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:192:in `authentication_token_create'
+         1: from /opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:129:in `request'
+/opt/vagrant/embedded/gems/2.3.3/gems/vagrant_cloud-3.0.5/lib/vagrant_cloud/client.rb:132:in `rescue in request': Vagrant Cloud request failed (VagrantCloud::Error::ClientError::RequestError)
